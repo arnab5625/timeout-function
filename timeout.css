@@ -1,0 +1,49 @@
+body{
+  background-color: #55a4c9;
+}
+h1{
+  color: #1835d6;
+  padding-top: 5px;
+}
+p{
+  display: none;
+  font-size: 50px;
+  color: red;
+}
+ul {
+  list-style: none;
+}
+ul li{
+  font-size: 28px;
+  color: #F99417;
+  margin: 10px;
+}
+.outputBlock{
+  height: 20px;
+}
+.active{
+  color: white;
+  background-color: green;
+  border: 2px solid white;
+}
+button{
+  margin-top: 140px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 1rem;
+  background-color: gray;
+  border: 2px solid black; 
+}
+button:hover{
+  cursor: pointer;
+}
+
+.timerDisplay{
+  color: red;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
